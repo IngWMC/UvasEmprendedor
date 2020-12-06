@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concejos</title>
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/consejo.css" />
+  </head>
+  <body>
+    <section>
+      <div class="logo__tema__contenedor">
+        <a href="index.html">
+          <img
+            class="logo__tema"
+            src="./assets/img/logo/logo-tema.svg"
+            alt=""
+          />
+        </a>
+      </div>
+
+      <div class="retroceder__contenedor">
+        <a href="uvas.html">
+          <img src="./assets/img/icon-retroceder.svg" alt="" />
+          <span>Regresar</span>
+        </a>
+      </div>
+
+      <div class="video__contenedor">
+        <div>
+          <div class="wow animate__animated animate__bounceInLeft video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/iF46xFNg8-A"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div
+            class="wow animate__animated animate__bounceInRight emprendedor__consejo_social"
+          >
+            <div class="emprendedor">
+              <div class="foto">
+                <img src="./assets/img/foto.png" alt="" />
+              </div>
+              <div class="informacion">
+                <h1>Luis Esteban Galiano</h1>
+                <span>Superlab - Innovation</span>
+              </div>
+            </div>
+            <div class="consejo">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur pariatur vero dolore deleniti laboriosam quia rerum
+                quisquam, officiis quod obcaecati natus quo, dolorem et hic
+                maxime id consequatur tempora. Quam.
+              </p>
+            </div>
+            <div class="social">
+              <a class="facebook" href="#"></a>
+              <a class="instagram" href="#"></a>
+              <a class="linkedin" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo__pequeno__contenedor">
+        <div class="linea__horizontal"></div>
+        <div class="logo__contenedor">
+          <img
+            class="logo__pequeno"
+            src="./assets/img/logo/logo-caja-pequeño.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/wow.js"></script>
+    <script>
+      wow = new WOW({
+        boxClass: "wow", // animated element css class (default is wow)
+        animateClass: "animate__animated", // animation css class (default is animated)
+        offset: 100, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function (box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">");
+        },
+      });
+      wow.init();
+    </script>
+  </body>
+</html>

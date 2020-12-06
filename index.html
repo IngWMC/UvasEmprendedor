@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <section>
+      <div class="wrapper">
+        <div class="logo__grande__contenedor">
+          <div class="logo__grande">
+            <img src="./assets/img/logo/logo-caja-grande.svg" alt="" />
+          </div>
+          <div class="figura figura__rectangulo figura__parado"></div>
+          <div class="figura figura__rectangulo figura__hechado"></div>
+          <div class="figura figura__triangulo"></div>
+        </div>
+        <div class="queremos__contenedor">
+          <div class="wow animate__animated animate__bounceInLeft consejos">
+            <img src="./assets/img/letter/consejos.svg" alt="" />
+          </div>
+          <div class="no">
+            <img src="./assets/img/letter/no.svg" alt="" />
+          </div>
+          <div class="wow animate__animated animate__bounceInRight deseos">
+            <img src="./assets/img/letter/deseos.svg" alt="" />
+          </div>
+          <div class="figura figura__triangulo"></div>
+          <div class="figura figura__rectangulo__uno figura__parado"></div>
+          <div class="figura figura__rectangulo__dos figura__hechado"></div>
+          <div></div>
+        </div>
+        <div class="figura figura__rectangulo__uno figura__parado"></div>
+        <div class="figura figura__rectangulo__dos figura__hechado"></div>
+        <div class="figura figura__triangulo figura__triangulo__uno"></div>
+        <div class="figura figura__triangulo figura__triangulo__dos"></div>
+        <div class="logo__mediano__contenedor">
+          <div class="deslizar__contenedor">
+            <div>
+              <span class="deslizar">Deslizar</span>
+              <div class="linea__vertical"></div>
+              <img
+                class="icon_redondo"
+                src="./assets/img/icon-redondo.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="logo__mediano"
+              src="./assets/img/logo/logo-caja-mediano.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="logo__tema__contenedor">
+          <img
+            class="wow animate__animated animate__bounceInDown logo__tema"
+            src="./assets/img/logo/logo-tema.svg"
+            alt=""
+          />
+          <div class="figura figura__triangulo"></div>
+          <div class="figura figura__rectangulo figura__hechado"></div>
+        </div>
+        <div class="texto__contenedor">
+          <div>
+            <p class="wow animate__animated animate__bounceInUp">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Suscipit, aliquam officia! Quibusdam, quae laborum! Nam,
+              aspernatur ab. Commodi, itaque dignissimos neque nulla soluta
+              tenetur! Aliquid repellendus iusto consectetur maxime labore.
+            </p>
+            <a href="uvas.html"></a>
+          </div>
+          <div class="figura figura__rectangulo__uno figura__hechado"></div>
+          <div class="figura figura__rectangulo__dos figura__parado"></div>
+          <div class="figura figura__rectangulo__tres figura__parado"></div>
+          <div class="figura figura__triangulo"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo__pequeno__contenedor">
+        <div class="linea__horizontal"></div>
+        <div class="logo__contenedor">
+          <img
+            class="logo__pequeno"
+            src="./assets/img/logo/logo-caja-pequeño.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/wow.js"></script>
+    <script>
+      wow = new WOW({
+        boxClass: "wow", // animated element css class (default is wow)
+        animateClass: "animate__animated", // animation css class (default is animated)
+        offset: 100, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function (box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">");
+        },
+      });
+      wow.init();
+    </script>
+  </body>
+</html>

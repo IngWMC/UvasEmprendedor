@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 115px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+section {
+  text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* ------------- logo__tema__contenedor ------------- */
+.logo__tema__contenedor {
+  text-align: center;
+  display: none;
+}
+
+.logo__tema {
+  width: 123.69px;
+}
+
+@media screen and (min-width: 600px) {
+  .logo__tema__contenedor {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
+    display: block;
+  }
+
+  .logo__tema {
+    width: 165.31px;
+  }
+}
+
+/* ------------- retroceder__contenedor ------------- */
+.retroceder__contenedor {
+  width: 328px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.retroceder__contenedor a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.retroceder__contenedor a span {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-top: 3.8px;
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .retroceder__contenedor {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+  }
+}
+
+/* ------------- video__contenedor ------------- */
+.video {
+  margin: auto;
+  width: 100%;
+}
+
+.video iframe {
+  width: 328px;
+  height: 181px;
+}
+
+.emprendedor__consejo_social {
+  margin: 30px auto;
+  width: 298px;
+}
+
+.emprendedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.informacion {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.informacion h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.informacion span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #8d8d8d;
+}
+
+.consejo {
+  margin-top: 26px;
+  margin-bottom: 29px;
+}
+
+.consejo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.social {
+  text-align: left;
+}
+
+.social a {
+  text-decoration: none;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+}
+
+.facebook {
+  background-image: url("../img/social/fb_btn.svg");
+}
+
+.instagram {
+  background-image: url("../img/social/instagram_btn.svg");
+  margin: 0 16px;
+}
+
+.linkedin {
+  background-image: url("../img/social/linkedin_btn.svg");
+}
+
+@media screen and (min-width: 600px) {
+  .video__contenedor {
+    margin: auto;
+    width: 960px;
+  }
+
+  .video__contenedor > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .video {
+    width: 50%;
+  }
+
+  .emprendedor__consejo_social {
+    width: 50%;
+    padding-left: 80px;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 302px;
+  }
+}
+
+/* ------------- logo__pequeno__contenedor ------------- */
+footer {
+  text-align: center;
+}
+
+.logo__pequeno__contenedor {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.logo__pequeno__contenedor .logo__contenedor {
+  background-color: #fff;
+  margin: auto;
+  width: 160px;
+}
+
+.linea__horizontal {
+  border-bottom: 1.5px solid #d1d1d1;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  z-index: -1;
+}
+
+.logo__pequeno {
+  width: 125.14px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__pequeno__contenedor {
+    margin-top: 70px;
+  }
+
+  .logo__pequeno__contenedor .logo__contenedor {
+    width: 100px;
+  }
+
+  .linea__horizontal {
+    top: 10px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .logo__pequeno {
+    width: 73px;
+  }
+}
