@@ -129,6 +129,22 @@ footer {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .uvas__contenedor {
+    max-width: 1140px;
+  }
+
+  .uvas__contenedor .linea__horizontal {
+    display: block;
+    border-bottom: 1px solid #d1d1d1;
+    width: 78px;
+    position: absolute;
+    margin-left: -39px;
+    top: 50%;
+    left: 50%;
+  }
+}
+
 /* ------------- logo__pequeno__contenedor ------------- */
 footer {
   text-align: center;

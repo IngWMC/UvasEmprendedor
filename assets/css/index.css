@@ -26,9 +26,16 @@ footer {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 992px) {
   .wrapper {
     max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
   }
 }
 
@@ -343,6 +350,20 @@ footer {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo__tema__contenedor .figura__triangulo {
+    background-image: url("../img/elements/14-triangulo-verde.svg");
+    left: -160px;
+    bottom: 130px;
+  }
+
+  .logo__tema__contenedor .figura__rectangulo {
+    background-image: url("../img/elements/1-rectangulo-celeste.svg");
+    right: -170px;
+    top: 70px;
+  }
+}
+
 /* ------------- texto__contenedor ------------- */
 .texto__contenedor {
   position: relative;
@@ -410,6 +431,32 @@ footer {
   .texto__contenedor .figura__triangulo {
     background-image: url("../img/elements/15-triangulo-naranja.svg");
     right: -60px;
+    bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .texto__contenedor .figura__rectangulo__uno {
+    background-image: url("../img/elements/8-rectangulo-naranja.svg");
+    left: -200px;
+    top: 20px;
+  }
+
+  .texto__contenedor .figura__rectangulo__dos {
+    background-image: url("../img/elements/3-rectangulo-rojo.svg");
+    left: -20px;
+    bottom: 0px;
+  }
+
+  .texto__contenedor .figura__rectangulo__tres {
+    background-image: url("../img/elements/9-rectangulo-verde.svg");
+    right: -220px;
+    top: -20px;
+  }
+
+  .texto__contenedor .figura__triangulo {
+    background-image: url("../img/elements/15-triangulo-naranja.svg");
+    right: -80px;
     bottom: 0px;
   }
 }
