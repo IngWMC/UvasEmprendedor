@@ -51,13 +51,13 @@
     transform: translate(-35px);
   }
   25% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
   50% {
     transform: translate(35px);
   }
   75% {
-    transform: translateY(10px);
+    transform: translateY(15px);
   }
   100% {
     transform: translate(-35px);
@@ -105,13 +105,13 @@
     transform: translate(20px);
   }
   25% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
   50% {
     transform: translate(-20px);
   }
   75% {
-    transform: translateY(5px);
+    transform: translateY(10px);
   }
   100% {
     transform: translate(20px);
