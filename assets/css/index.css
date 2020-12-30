@@ -46,25 +46,30 @@ footer {
   .wrapper > .figura__rectangulo__uno {
     background-image: url("../img/elements/2-rectangulo-celeste.svg");
     left: 50px;
-    bottom: 80px;
+    /* bottom: 80px; */
+    top: 620px;
   }
 
   .wrapper > .figura__rectangulo__dos {
     background-image: url("../img/elements/8-rectangulo-naranja.svg");
     left: 140px;
     top: 340px;
+    z-index: -1;
   }
 
   .wrapper > .figura__triangulo__uno {
     background-image: url("../img/elements/12-triangulo-naranja.svg");
-    right: 280px;
-    bottom: 100px;
+    right: 250px;
+    /* bottom: 100px; */
+    top: 600px;
+    z-index: -1;
   }
 
   .wrapper > .figura__triangulo__dos {
     background-image: url("../img/elements/10-triangulo-rojo.svg");
     right: 80px;
-    bottom: 250px;
+    /* bottom: 250px; */
+    top: 410px;
   }
 }
 
@@ -245,6 +250,7 @@ footer {
 /* ------------- logo__mediano__contenedor ------------- */
 .logo__mediano__contenedor {
   position: relative;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
