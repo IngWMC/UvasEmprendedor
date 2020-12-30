@@ -26,6 +26,11 @@ footer {
   flex-direction: column;
 }
 
+.wrapper__grid {
+  display: grid;
+  grid-template-rows: 10% 45%;
+}
+
 @media (min-width: 992px) {
   .wrapper {
     max-width: 960px;
@@ -403,6 +408,11 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .wrapper__grid {
+    display: grid;
+    grid-template-rows: 10% 38%;
+  }
+
   .texto__contenedor .figura__rectangulo__dos {
     background-image: url("../img/elements/3-rectangulo-rojo.svg");
     left: 10px;
