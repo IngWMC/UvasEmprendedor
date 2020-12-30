@@ -9,10 +9,6 @@ html {
   position: relative;
 }
 
-body {
-  margin-bottom: 115px;
-}
-
 footer {
   width: 100%;
   position: absolute;
@@ -23,8 +19,11 @@ footer {
   position: relative;
   text-align: center;
   width: 100%;
+  height: 100vh;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 992px) {
@@ -40,9 +39,6 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
-  body {
-    padding-top: 45px;
-  }
   .wrapper > .figura__rectangulo__uno {
     background-image: url("../img/elements/2-rectangulo-celeste.svg");
     left: 50px;
@@ -96,7 +92,7 @@ footer {
 
 /* ------------- logo__grande__contenedor ------------- */
 .logo__grande__contenedor {
-  padding: 40px;
+  padding-bottom: 35px;
   position: relative;
   width: 100%;
 }
@@ -106,6 +102,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .logo__grande__contenedor {
+    padding-top: 50px;
+  }
+
   .logo__grande img {
     width: 80.5px;
   }
@@ -128,6 +128,10 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+  .logo__grande__contenedor {
+    padding-top: 80px;
+  }
+
   .logo__grande img {
     width: 130px;
   }
@@ -153,6 +157,9 @@ footer {
 .queremos__contenedor {
   position: relative;
   margin: auto;
+  display: grid;
+  align-items: center;
+  height: -webkit-fill-available;
 }
 
 .consejos {
@@ -179,7 +186,7 @@ footer {
 @media screen and (max-width: 600px) {
   .queremos__contenedor {
     width: 305px;
-    height: 233px;
+    /* height: 233px; */
   }
 
   .deseos {
@@ -211,7 +218,7 @@ footer {
 @media screen and (min-width: 600px) {
   .queremos__contenedor {
     width: 560.66px;
-    height: 308.46px;
+    /* height: 308.46px; */
   }
 
   .queremos__contenedor .consejos img {
@@ -250,11 +257,15 @@ footer {
 /* ------------- logo__mediano__contenedor ------------- */
 .logo__mediano__contenedor {
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
+  .logo__mediano {
+    display: none;
+  }
+
   .logo__mediano__contenedor div {
     display: flex;
     flex-direction: column;
@@ -276,11 +287,6 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
-  .logo__mediano__contenedor {
-    margin-top: 20px;
-    margin-bottom: 70px;
-  }
-
   .deslizar__contenedor div {
     display: flex;
     flex-direction: column;
@@ -374,7 +380,10 @@ footer {
 .texto__contenedor {
   position: relative;
   width: 311px;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .texto__contenedor div p {
@@ -384,7 +393,7 @@ footer {
 }
 
 .texto__contenedor div a {
-  margin-top: 50px;
+  margin-top: 20px;
   background-image: url("../img/btn-empezar.svg");
   background-position: center center;
   width: 256px;
@@ -413,7 +422,7 @@ footer {
   }
 
   .texto__contenedor div a {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .texto__contenedor .figura__rectangulo__uno {
