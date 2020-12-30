@@ -100,7 +100,7 @@ section {
   height: 181px;
 }
 
-.emprendedor__consejo_social {
+.emprendedor__consejo_icon {
   margin: 30px auto;
   width: 298px;
 }
@@ -140,11 +140,13 @@ section {
   text-align: left;
 }
 
-.social {
+.icon__contenedor {
   text-align: left;
+  display: grid;
+  grid-auto-flow: row;
 }
 
-.social a {
+.icon__contenedor a {
   text-decoration: none;
   width: 32px;
   height: 32px;
@@ -164,7 +166,36 @@ section {
   background-image: url("../img/social/linkedin_btn.svg");
 }
 
+.back {
+  background-image: url("../img/Back.svg");
+  float: left;
+}
+
+.next {
+  background-image: url("../img/Next.svg");
+  float: right;
+}
+
+.icon__back__next {
+  margin-top: 26px;
+}
+
 @media screen and (min-width: 600px) {
+  .icon__contenedor {
+    grid-auto-flow: column;
+  }
+
+  .icon__back__next {
+    text-align: end;
+    margin-top: 0;
+  }
+
+  .back,
+  .next {
+    float: none;
+    margin: 0 3px;
+  }
+
   .video__contenedor {
     margin: auto;
     width: 960px;
@@ -179,7 +210,7 @@ section {
     width: 50%;
   }
 
-  .emprendedor__consejo_social {
+  .emprendedor__consejo_icon {
     width: 50%;
     padding-left: 80px;
   }
