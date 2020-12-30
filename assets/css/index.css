@@ -191,7 +191,7 @@ footer {
 @media screen and (max-width: 600px) {
   .queremos__contenedor {
     width: 305px;
-    /* height: 233px; */
+    height: 233px;
   }
 
   .deseos {
@@ -223,7 +223,7 @@ footer {
 @media screen and (min-width: 600px) {
   .queremos__contenedor {
     width: 560.66px;
-    /* height: 308.46px; */
+    height: 308.46px;
   }
 
   .queremos__contenedor .consejos img {
